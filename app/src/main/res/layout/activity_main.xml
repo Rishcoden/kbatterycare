@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBBB3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="412dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        android:background="#F1F0F0"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="KaarthikBatsMax"
+        android:textColor="#080F10"
+        android:textSize="16sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/disp"
+        android:layout_width="175dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- app starts-->
+    <!-- Phase 1-->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Optimize Your battery comsumption by turn off wifi during emergency (Note it will only works for the android version below 9 that is android pie)"
+
+        android:textColor="#302828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="441dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="144dp"
+        android:background="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center_vertical"
+        android:text="Kwifituner"
+        android:textColor="#191313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--phase 2-->
+
+    <Button
+        android:id="@+id/wifibopt"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="144dp"
+        android:background="@android:color/transparent"
+        android:text="Optimize "
+        android:textColor="#29a9f2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Implement a background service to detect emergencies and programmatically toggle Wi-Fi off using Android's Wi-FiManager API, ensuring battery optimization across all Android versions."
+        android:textColor="#302828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewk"
+        android:layout_width="441dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="292dp"
+        android:background="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center_vertical"
+        android:text="Kwifituner"
+        android:textColor="#191313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- Phase 3-->
+
+    <Button
+        android:id="@+id/wifibopt2"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginLeft="268dp"
+        android:layout_marginTop="292dp"
+        android:background="@android:color/transparent"
+        android:text="Optimize "
+        android:textColor="#29a9f2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="348dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Optimize Your battery comsumption by turn off Bluetooth during emergency"
+        android:textColor="#302828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="441dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="408dp"
+        android:background="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center_vertical"
+        android:text="KBluetooth Tuner"
+        android:textColor="#191313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/Rblue"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="404dp"
+        android:background="@android:color/transparent"
+        android:text="Optimize "
+        android:textColor="#29a9f2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- phase 4 -->
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="460dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Optimize Your battery comsumption by turn off Gps during emergency"
+        android:textColor="#302828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="441dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="504dp"
+        android:background="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center_vertical"
+        android:text="Kgps Tuner"
+        android:textColor="#191313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Rloc"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="500dp"
+        android:background="@android:color/transparent"
+        android:text="Optimize "
+        android:textColor="#29a9f2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<!-- phase5 -->
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="564dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Optimize Your battery comsumption by turn off auto sync during emergency"
+        android:textColor="#302828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="441dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="608dp"
+        android:background="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center_vertical"
+        android:text="Ksync Tuner"
+        android:textColor="#191313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Rsync"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginLeft="268dp"
+        android:layout_marginTop="608dp"
+        android:background="@android:color/transparent"
+        android:text="Optimize "
+        android:textColor="#29a9f2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- phase 6 -->
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="656dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Save 15 % of battery by Using System Battery saver mode "
+        android:textColor="#302828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="441dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="692dp"
+        android:background="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center_vertical"
+        android:text=" System Battery Saver mode"
+        android:textColor="#191313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Rbat"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="692dp"
+        android:background="@android:color/transparent"
+        android:text="Optimize "
+        android:textColor="#29a9f2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
